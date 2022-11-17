@@ -1,0 +1,16 @@
+@media screen and (max-width: 980px) {
+  .container__services {
+    display: flex;
+    flex-direction: column;
+  }
+  .container__proyect {
+    display: flex;
+    flex-direction: column;
+    .img__proyect {
+      opacity: 1;
+      &:hover {
+        transform: none;
+      }
+    }
+  }
+}

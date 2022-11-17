@@ -1,0 +1,15 @@
+footer {
+  .container {
+    .row {
+      .col-1 {
+        a {
+          i {
+            &:hover {
+              color: $firstColor;
+            }
+          }
+        }
+      }
+    }
+  }
+}

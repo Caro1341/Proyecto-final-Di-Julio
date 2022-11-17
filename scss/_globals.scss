@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.subtitle {
+  color: $thirdColor;
+  font-weight: 300;
+  margin-top: 0.5rem;
+  .subtitle--color {
+    color: $firstColor;
+  }
+}
+.description {
+  color: $thirdColor;
+  font-size: medium;
+}

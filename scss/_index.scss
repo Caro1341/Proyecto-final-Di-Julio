@@ -1,0 +1,13 @@
+.carousel-inner {
+  .carousel-item {
+    .index__img {
+      position: relative;
+      max-height: 75.3vh;
+      object-fit: cover;
+    }
+    .index__imgtext {
+      position: absolute;
+      top: 40%;
+    }
+  }
+}

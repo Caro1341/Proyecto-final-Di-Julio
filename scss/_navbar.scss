@@ -1,0 +1,18 @@
+nav {
+  div {
+    a {
+      .color {
+        color: $firstColor;
+      }
+    }
+    div {
+      ul {
+        li {
+          .color {
+            color: $firstColor;
+          }
+        }
+      }
+    }
+  }
+}
