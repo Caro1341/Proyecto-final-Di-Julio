@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.subtitle {
+  color: #727272;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}
+.subtitle .subtitle--color {
+  color: #e2b659;
+}
+
+.description {
+  color: #727272;
+  font-size: medium;
+}
+
+nav div a .color {
+  color: #e2b659;
+}
+nav div div ul li .color {
+  color: #e2b659;
+}
+
+.carousel-inner .carousel-item .index__img {
+  position: relative;
+  max-height: 75.3vh;
+  object-fit: cover;
+}
+.carousel-inner .carousel-item .index__imgtext {
+  position: absolute;
+  top: 40%;
+}
+
+.container__process {
+  display: flex;
+  flex-direction: column;
+}
+.container__process .cardProcess {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem 4rem;
+}
+.container__process .cardProcess .img__process {
+  border-radius: 10rem;
+  width: 20rem;
+  max-height: 20rem;
+  border: solid 1px #000000;
+  object-fit: cover;
+}
+
+.container__proyect {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100%;
+  margin: 2rem;
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
+}
+.container__proyect .img__proyect {
+  max-height: 12rem;
+  width: 100%;
+  transition: all 0.3s;
+  opacity: 0.6;
+  object-fit: cover;
+}
+.container__proyect .img__proyect:hover {
+  cursor: pointer;
+  opacity: 1;
+  z-index: 2;
+  transform: scale(1.2);
+}
+
+.container__services {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 1rem;
+  gap: 1rem;
+}
+.container__services .cardServices {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container__services .cardServices .img__services {
+  max-height: 19rem;
+  padding: auto;
+  padding: 2rem;
+  margin-right: 1.5rem;
+  object-fit: cover;
+}
+
+footer .container .row .col-1 a i:hover {
+  color: #e2b659;
+}
+
+@media screen and (max-width: 980px) {
+  .container__services {
+    display: flex;
+    flex-direction: column;
+  }
+  .container__proyect {
+    display: flex;
+    flex-direction: column;
+  }
+  .container__proyect .img__proyect {
+    opacity: 1;
+  }
+  .container__proyect .img__proyect:hover {
+    transform: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

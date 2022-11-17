@@ -1,12 +1,20 @@
 {
   "name": "final",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "compile": "sass --watch scss/style.scss css/style.css"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caro1341/Proyecto-final-Di-Julio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Caro1341/Proyecto-final-Di-Julio/issues"
+  },
+  "homepage": "https://github.com/Caro1341/Proyecto-final-Di-Julio#readme",
+  "description": ""
 }
