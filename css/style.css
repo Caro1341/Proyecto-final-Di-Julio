@@ -36,9 +36,14 @@ nav div div ul li .color {
   top: 40%;
 }
 
+.img__card {
+  max-width: 100%;
+}
+
 .container__process {
   display: flex;
   flex-direction: column;
+  margin-inline: 10%;
 }
 .container__process .cardProcess {
   display: flex;
@@ -82,7 +87,7 @@ nav div div ul li .color {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr 1fr 1fr;
-  margin: 1rem;
+  margin: 3rem;
   gap: 1rem;
 }
 .container__services .cardServices {
@@ -116,6 +121,14 @@ footer .container .row .col-1 a i:hover {
   }
   .container__proyect .img__proyect:hover {
     transform: none;
+  }
+  .container__process {
+    margin-inline: none;
+  }
+  .container__index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
