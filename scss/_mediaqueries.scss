@@ -1,11 +1,9 @@
 @media screen and (max-width: 980px) {
   .container__services {
-    display: flex;
-    flex-direction: column;
+    @include flex(column);
   }
   .container__proyect {
-    display: flex;
-    flex-direction: column;
+    @include flex(column);
     .img__proyect {
       opacity: 1;
       &:hover {
@@ -17,8 +15,7 @@
     margin-inline: none;
   }
   .container__index {
-    display: flex;
-    flex-direction: column;
+    @include flex(column);
     align-items: center;
   }
 }

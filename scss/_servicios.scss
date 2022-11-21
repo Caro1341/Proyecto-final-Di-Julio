@@ -5,8 +5,7 @@
   margin: 3rem;
   gap: 1rem;
   .cardServices {
-    display: flex;
-    flex-direction: column;
+    @include flex(column);
     justify-content: space-between;
     .img__services {
       max-height: 19rem;

@@ -1,11 +1,9 @@
 // estilos del main de mi pagina Proceso
 .container__process {
-  display: flex;
-  flex-direction: column;
+  @include flex(column);
   margin-inline: 10%;
   .cardProcess {
-    display: flex;
-    flex-direction: column;
+    @include flex(column);
     align-items: center;
     margin: 0.5rem 4rem;
     .img__process {
