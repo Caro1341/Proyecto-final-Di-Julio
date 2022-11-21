@@ -36,8 +36,11 @@ nav div div ul li .color {
   top: 40%;
 }
 
-.img__card {
+.card .img__card {
   max-width: 100%;
+}
+.card .card-body .btn:hover {
+  background: linear-gradient(90deg, #e2b659, white, #e2b659);
 }
 
 .container__process {
@@ -103,8 +106,12 @@ nav div div ul li .color {
   object-fit: cover;
 }
 
+footer .container .row .col-1 a i {
+  transition: all 1s;
+}
 footer .container .row .col-1 a i:hover {
   color: #e2b659;
+  transform: scale(1.5);
 }
 
 @media screen and (max-width: 980px) {

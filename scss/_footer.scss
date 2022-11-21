@@ -4,8 +4,10 @@ footer {
       .col-1 {
         a {
           i {
+            transition: all 1s;
             &:hover {
               color: $firstColor;
+              transform: scale(1.5);
             }
           }
         }

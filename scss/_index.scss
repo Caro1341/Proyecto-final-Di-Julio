@@ -11,6 +11,15 @@
     }
   }
 }
-.img__card {
-  max-width: 100%;
+.card {
+  .img__card {
+    max-width: 100%;
+  }
+  .card-body {
+    .btn {
+      &:hover {
+        background: linear-gradient(90deg, $firstColor, white, $firstColor);
+      }
+    }
+  }
 }
